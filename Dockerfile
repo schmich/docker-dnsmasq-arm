@@ -1,4 +1,4 @@
-FROM resin/armv7hf-debian-qemu:latest
+FROM schmich/armv7hf-alpine-qemu:arm
 MAINTAINER Chris Schmich <schmch@gmail.com>
 RUN ["cross-build-start"]
 RUN apk add --no-cache dnsmasq=2.76-r1

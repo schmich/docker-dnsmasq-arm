@@ -13,7 +13,7 @@ dnsmasq requires `NET_ADMIN` capabilities.
 `docker run -p 53:53/tcp -p 53:53/udp --cap-add=NET_ADMIN schmich/dnsmasq:2.76-r1-arm`
 
 To see command-line arguments, run `docker run --rm schmich/dnsmasq:2.76-r1-arm --help`.
-Additional settings can be specified in `/etc/dnsmasq.conf`.
+Additional configuration can be specified in `/etc/dnsmasq.conf`.
 
 ## Credits
 
